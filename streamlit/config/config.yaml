@@ -1,0 +1,15 @@
+s3_buckets:
+  model_bucket: "cloud-result"
+  data_bucket: "cloud-result"
+  config_bucket: "cloud-result"
+
+models:
+  path: "artifacts"
+  files:
+    - "XGBRegressor_model.pkl"
+    - "GradientBoostingRegressor_model.pkl"
+    - "DecisionTreeRegressor_model.pkl"
+
+
+data:
+  file: "artifacts/org_df.csv"

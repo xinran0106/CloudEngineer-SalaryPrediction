@@ -1,0 +1,2 @@
+best_params,best_score,test_rmse,test_r2
+"{'max_depth': 6, 'min_samples_leaf': 4, 'min_samples_split': 2}",49946.53739151571,47677.0776260208,0.3999165958517287
